@@ -1,6 +1,6 @@
 import { Meta } from '@storybook/react';
 import { Logo, LogoProps } from '.';
-import logo from '../../../public/images/logo.png';
+import logo from '../../images/logo.png';
 
 export default {
   title: 'Logo',

@@ -3,7 +3,8 @@
 import styled, { css } from 'styled-components';
 
 export const Conteiner = styled.section`
-  ${() => css`
+  ${({ theme }) => css`
+    padding: ${theme.padding.small};
     width: 100%;
     display: flex;
     justify-content: center;
