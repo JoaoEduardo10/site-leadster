@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import StyledComponentsRegistry from './lib/registry';
 import { theme } from '@/styles/theme';
 import { GlobalStyles } from '@/styles/globals-styles';
+import { TemplateLeadster } from '../template';
 
 export default function RootLayout({
   children,
@@ -22,7 +23,7 @@ export default function RootLayout({
       <body>
         <StyledComponentsRegistry>
           <ThemeProvider theme={theme}>
-            {children}
+            <TemplateLeadster>{children}</TemplateLeadster>
             <GlobalStyles />
           </ThemeProvider>
         </StyledComponentsRegistry>
