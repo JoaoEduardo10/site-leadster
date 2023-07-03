@@ -6,6 +6,6 @@ export default {
   component: HeaderCaption,
 } as Meta;
 
-export const StoryLogo = () => {
+export const StoryHeaderCaption = () => {
   return <HeaderCaption />;
 };
