@@ -7,7 +7,7 @@ export type LogoProps = {
 
 export const Logo = ({ img }: LogoProps) => {
   return (
-    <Styled.Conteiner aria-label="">
+    <Styled.Conteiner aria-label="logo">
       <Styled.ConteinerLogo>
         <Image src={img} alt={img} width={100} height={100} />
       </Styled.ConteinerLogo>

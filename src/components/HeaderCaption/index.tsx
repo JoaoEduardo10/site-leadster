@@ -4,7 +4,7 @@ import icon from '../../images/asset-header.png';
 
 export const HeaderCaption = () => {
   return (
-    <Styled.Conteiner>
+    <Styled.Conteiner aria-label="headerCaption">
       <Styled.HeaderCaptionContainer>
         <Styled.HeaderCaptionSubtitle aria-label="subtitle">
           webinars exclusivos
