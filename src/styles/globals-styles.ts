@@ -15,7 +15,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-family: ${({ theme }) => theme.font.family.Plus_Jakarta}, sans-serif;
     font-size: 1.6rem;
-    background-color: ${({ theme }) => theme.colors.light_gray};
+    background-color: ${({ theme }) => theme.colors.white};
   }
 
   ul, ol {

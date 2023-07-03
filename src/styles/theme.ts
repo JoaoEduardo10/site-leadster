@@ -2,8 +2,10 @@ const theme = {
   colors: {
     light_green: '#04D99D',
     light_gray: '#F2F2F2',
-    light_blue: '#0597F2',
-    blue: '#0583F2',
+    white: '#fff',
+    light_blue: '#E6F0FF',
+    dark_blue: '#0583F2',
+    blue: '#0597F2',
     orange: '#F28705',
   },
   font: {
@@ -23,7 +25,7 @@ const theme = {
     small_phones: '@media (max-width: 480px)',
     phone: '@media (min-width: 481px) and (max-width: 767px)',
     tablet: '@media (min-width: 768px) and (max-width: 1023px)',
-    lapTop: '@media (max-width: 1024px)',
+    lapTop: '@media (max-width: 1px)',
   },
   padding: {
     small: '1.6rem',
