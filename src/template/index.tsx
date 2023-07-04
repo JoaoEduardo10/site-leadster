@@ -1,3 +1,4 @@
+import { Footer } from '../components/Footer';
 import { Header } from '../components/header';
 
 type TemplateLeadsterProps = {
@@ -9,7 +10,7 @@ export const TemplateLeadster = ({ children }: TemplateLeadsterProps) => {
     <>
       <Header />
       <main>{children}</main>
-      <footer>footer</footer>
+      <Footer />
     </>
   );
 };
