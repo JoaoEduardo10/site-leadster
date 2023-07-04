@@ -25,7 +25,7 @@ const theme = {
     small_phones: '@media (max-width: 480px)',
     phone: '@media (min-width: 481px) and (max-width: 767px)',
     tablet: '@media (min-width: 768px) and (max-width: 1023px)',
-    lapTop: '@media (max-width: 1px)',
+    lapTop: '@media (min-width: 1024px) and (max-width: 1500px)',
   },
   padding: {
     small: '1.6rem',
