@@ -1,5 +1,5 @@
-import { TestStyled } from './styles';
+import { VideoGallery } from '../components/VideoGallery';
 
 export default function Home() {
-  return <TestStyled>Hello</TestStyled>;
+  return <VideoGallery />;
 }
