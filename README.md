@@ -92,4 +92,4 @@ $ npm start ou yarn start
 
 ### Link do site em deploy
 
-[link do site em deploy](https://site-leadster-joao-eduardo.vercel.app/)
+[link do site em deploy](https://site-leadster-joao-eduardo-2enwit032-joaoeduardo10.vercel.app/)
