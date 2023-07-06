@@ -1,11 +1,15 @@
 import { Meta } from '@storybook/react';
-import { FixedConteiner } from '.';
+import { FixedConteiner, FixedConteinerProps } from '.';
 
 export default {
   title: 'FixedConteiner',
   component: FixedConteiner,
+  args: {
+    rendered: true,
+    show: true,
+  } as FixedConteinerProps,
 } as Meta;
 
-export const StoryFixedConteiner = () => {
-  return <FixedConteiner>Cjildren</FixedConteiner>;
+export const StoryFixedConteiner = (agrs: FixedConteinerProps) => {
+  return <FixedConteiner {...agrs}>Cjildren</FixedConteiner>;
 };
