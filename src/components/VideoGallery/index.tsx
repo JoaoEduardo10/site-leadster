@@ -28,7 +28,13 @@ export const VideoGallery = () => {
     <>
       <Styled.VideoGallery>
         {currentItems.map((video_gallery, index) => (
-          <VideoCards key={index} img={img} title={video_gallery.title} />
+          <VideoCards
+            key={index}
+            img={img}
+            title={video_gallery.title}
+            description={video_gallery.description}
+            video={video_gallery.video}
+          />
         ))}
       </Styled.VideoGallery>
       <Styled.Separator></Styled.Separator>
