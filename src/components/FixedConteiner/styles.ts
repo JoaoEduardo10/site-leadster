@@ -1,7 +1,6 @@
 'use client';
 
 import styled, { css } from 'styled-components';
-import { FixedConteinerProps } from '.';
 
 const handleShow = (show: boolean | string, rendered: boolean | string) => css`
   ${show == 'true' &&

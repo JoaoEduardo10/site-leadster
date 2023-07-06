@@ -54,8 +54,9 @@ export const Header = styled.header`
 `;
 
 export const VideoConteiner = styled.section`
-  ${({ theme }) => css`
+  ${() => css`
     position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
 
     width: 100%;
     height: 50%;
