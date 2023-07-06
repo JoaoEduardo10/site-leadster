@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import * as Styled from './styles';
 import Link from 'next/link';
 
@@ -11,7 +12,13 @@ export type MenuProps = {
 };
 
 export const Menu = ({ links }: MenuProps) => {
-  const pathname = window.location.pathname;
+  const [pathname, setPathname] = useState('/');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setPathname(window.location.pathname);
+    }
+  });
 
   return (
     <Styled.Menu role="menu">
