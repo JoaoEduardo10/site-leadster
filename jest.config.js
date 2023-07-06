@@ -19,7 +19,7 @@ const customJestConfig = {
     '!<rootDir>/src/types/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/styles/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/utils/**/*.{js,jsx,ts,tsx}',
-    '!<rootDir>/src/templates/**/*.{js,jsx,ts,tsx}',
+    '!<rootDir>/src/template/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/app/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/config/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/pages/**/*.{js,jsx,ts,tsx}',
