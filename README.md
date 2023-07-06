@@ -1,34 +1,95 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Teste Leadster
 
-## Getting Started
+## Experiência de Teste
 
-First, run the development server:
+Acredito que tenha chegado próximo ao que eu queria no teste. Não tive tempo para refatorar completamente, mas está bastante explicativo e seguindo boas práticas. Espero que goste do site!
+
+## Decisões Tomadas
+
+Decidi desenvolver o projeto de forma escalável, com componentes reutilizáveis e muito mais. Utilizei um template base, onde apenas os conteúdos das rotas precisam ser alterados. Todos os componentes foram testados e documentados com o Storybook, garantindo uma aplicação altamente escalável.
+
+## Organização do Código
+
+### src
+
+- Este diretório contém todo o código referente ao site.
+
+### app
+
+- Contém todas as rotas do site.
+
+### components
+
+- Este diretório contém todos os componentes do site, incluindo sua documentação e testes. Além disso, esses componentes podem ser reutilizáveis em outros contextos.
+
+### images
+
+- Contém todas as imagens utilizadas no site.
+
+### styles
+
+- Contém o estilo global do site e variáveis globais reutilizáveis.
+
+### template
+
+- Contém o template base que é utilizado em toda a aplicação.
+
+### utils
+
+- Contém códigos reutilizáveis do site.
+
+## Funcionalidades
+
+A seguir estão as principais funcionalidades do projeto:
+
+1. Navegação no site: O site oferece uma interface intuitiva e fácil de usar, permitindo que os usuários naveguem por diferentes seções e páginas.
+
+2. Visualização de vídeos: Os usuários podem clicar em vídeos para assistir o conteúdo multimídia disponível. O projeto suporta a reprodução de vídeos em diferentes formatos e oferece uma experiência de visualização agradável.
+
+3. Menu dinâmico em dispositivos móveis: Quando acessado por dispositivos móveis, o site apresenta um menu dinâmico, adaptado às telas menores, facilitando a navegação e a descoberta de conteúdo.
+
+4. Escalabilidade: O projeto foi desenvolvido com foco na escalabilidade, permitindo futuras adições ou alterações de funcionalidades de forma eficiente. A arquitetura e o código foram organizados de maneira modular e extensível.
+
+## Instruções de Instalação e Execução
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+#instale as dependencias
+$ npm install ou yarn
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Após a instalação das dependências, você está liberado para executar os testes, documentação e a aplicação.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Testes
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+# execulte os testes
+$ npm run test or yarn test
+```
 
-## Learn More
+### Documentação dos componentes (Storybook)
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Execute o Storybook
+$ npm run sb ou yarn sb
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Executar o site
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+$ npm run dev ou yarn dev
+```
 
-## Deploy on Vercel
+### Site em Produção
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+# 1
+$ npm run build ou yarn build
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#2
+$ npm start ou yarn start
+
+```
+
+### Link do site em deploy
+
+[link do site em deploy](https://)
